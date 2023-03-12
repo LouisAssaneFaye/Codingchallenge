@@ -1,0 +1,101 @@
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding-top: 1.5%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 62.5%;
+    background-color: rgba(0,0,0,0.45);
+    padding-top: 5.6%;
+    height: 642px;
+    border-radius: 13px;
+    
+}
+
+.container,nav,header{
+    margin: auto;
+}
+
+header,nav{
+    text-align: center;
+}
+
+img{
+    width: 20.2%;
+}
+
+h2{
+    color: rgb(36, 237, 36);
+    font-weight: 500; 
+}   
+
+nav{
+    width: 83.5%;
+    background-color: rgb(14, 197, 14);
+    height: 35px;
+    padding-top: 4px;
+}
+
+button{
+    font-size: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+main{
+    color: white;
+}
+
+section{
+    width: 83.5%;
+    margin: 1.5% auto ;
+}
+
+section > *{
+    display: inline-block;
+}
+
+h4{
+    font-weight: 500;
+}
+
+span{
+    font-size: 75%;
+    height: 20px;    
+}
+
+span:before{
+    content: "\21A6";
+}
+
+.orange,.green,.red{
+    height: 20px;
+    border-radius: 4px;
+}
+
+.orange{
+    background-color: rgb(253, 194, 85);
+    width: 36%;
+}
+
+.green{
+    background-color: rgb(35, 197, 35);
+    width: 60%;
+}
+
+.red{
+    background-color: rgb(178, 66, 66);
+    width: 13%;
+}
+
+
+
+
